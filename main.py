@@ -13,7 +13,7 @@ def caesar(direction_of_function, text_use, shift_amount):
       elif direction_of_function == 'decode':
         newletter = alphabet[pos - shift_amount]
       final_text += newletter
-    print(f"your {direction_of_function}"+f"ed text is: {final_text}")
+    print(f"your {direction_of_function}d text is: {final_text}")
       
       
   
